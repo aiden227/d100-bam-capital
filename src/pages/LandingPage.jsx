@@ -13,6 +13,10 @@ function LandingPage() {
 
       {/* Hero */}
       <section className="section hero">
+        <div className="hero-bg">
+          <img src="/images/property_buildings.png" alt="BAM Capital properties" className="hero-bg-img" />
+          <div className="hero-overlay"></div>
+        </div>
         <div className="container hero-content">
           <span className="hero-callout">Accredited Investors Only</span>
           <h1>Access Institutional Multifamily Real Estate. Earn Targeted 15-20% Annualized Returns. Without Managing a Single Property.</h1>
@@ -54,11 +58,23 @@ function LandingPage() {
       <section className="section section-light">
         <div className="container">
           <h2>Institutional Multifamily Real Estate, Managed Entirely For You</h2>
-          <div className="content-block">
-            <p>BAM Capital is the private equity arm of The BAM Companies, a vertically integrated real estate owner and operator with $2B+ in total transaction volume.</p>
-            <p>When you invest with BAM Capital, you are investing in institutional-quality multifamily properties, Class A and B+ apartment communities in strong Midwest and Southeast markets, managed entirely by our in-house team.</p>
-            <p>You put up the capital. We handle everything: acquisition, management, value creation, and exit. You receive quarterly cash distributions and monitor your investment through our dedicated investor portal.</p>
-            <p><strong>No tenants. No maintenance calls. No operational headaches. True passive investing.</strong></p>
+          <div className="solution-layout">
+            <div className="solution-text">
+              <p>BAM Capital is the private equity arm of The BAM Companies, a vertically integrated real estate owner and operator with $2B+ in total transaction volume.</p>
+              <p>When you invest with BAM Capital, you are investing in institutional-quality multifamily properties, Class A and B+ apartment communities in strong Midwest and Southeast markets, managed entirely by our in-house team.</p>
+              <p>You put up the capital. We handle everything: acquisition, management, value creation, and exit. You receive quarterly cash distributions and monitor your investment through our dedicated investor portal.</p>
+              <p><strong>No tenants. No maintenance calls. No operational headaches. True passive investing.</strong></p>
+            </div>
+            <div className="solution-visual">
+              <img src="/images/property_buildings.png" alt="BAM Capital multifamily properties" className="solution-property-img" />
+              <div className="solution-founder">
+                <img src="/images/ivan_barratt_headshot.png" alt="Ivan Barratt" className="solution-founder-img" />
+                <div>
+                  <strong>Ivan Barratt</strong>
+                  <span>CEO &amp; Founder</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -96,6 +112,10 @@ function LandingPage() {
       <section className="section section-light">
         <div className="container">
           <h2>The Track Record</h2>
+          <div className="track-badges">
+            <img src="/images/inc5000_badge.png" alt="8x Inc. 5000" className="track-badge" />
+            <img src="/images/fund_v_logo.png" alt="BAM Multifamily Growth Fund V" className="track-badge" />
+          </div>
           <div className="metrics-grid">
             <div className="metric-card">
               <div className="metric-value">$2B+</div>
@@ -132,16 +152,26 @@ function LandingPage() {
           </div>
 
           <div className="case-study-box">
-            <h3>Oakdale Square Case Study</h3>
-            <p>We acquired Oakdale Square, deployed our vertically integrated value-add strategy, and exited at a <strong>5.08x multiple on invested capital</strong>. For every $100,000 invested, our LPs received over $508,000 back.</p>
-            <p className="text-muted" style={{ fontSize: '14px', marginTop: '12px' }}>Past performance is not indicative of future results. All investments carry risk.</p>
+            <div className="case-study-inner">
+              <div className="case-study-text">
+                <h3>Oakdale Square Case Study</h3>
+                <p>We acquired Oakdale Square, deployed our vertically integrated value-add strategy, and exited at a <strong>5.08x multiple on invested capital</strong>. For every $100,000 invested, our LPs received over $508,000 back.</p>
+                <p className="text-muted" style={{ fontSize: '14px', marginTop: '12px' }}>Past performance is not indicative of future results. All investments carry risk.</p>
+              </div>
+              <img src="/images/total_distributions.png" alt="BAM Capital total distributions" className="case-study-img" />
+            </div>
           </div>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="section section-gray" id="apply">
+      <section className="section cta-hero" id="apply">
+        <div className="cta-hero-bg">
+          <img src="/images/property_buildings.png" alt="BAM Capital properties" className="cta-hero-bg-img" />
+          <div className="cta-hero-overlay"></div>
+        </div>
         <div className="container cta-section">
+          <img src="/images/fund_v_logo.png" alt="BAM Multifamily Growth Fund V" className="cta-fund-logo" />
           <h2>Ready to Explore Institutional Multifamily Real Estate?</h2>
           <p>BAM Capital is actively raising for Multifamily Growth Fund V. Allocation is limited.</p>
           <p>If you are an accredited investor with $200,000+ in investable capital and you want passive exposure to institutional multifamily real estate, apply for an investment briefing below.</p>

@@ -80,47 +80,73 @@ function ThankYouPage() {
       <section className="section section-light">
         <div className="container">
           <h2>Here Is Exactly What Happens From Here</h2>
-          <div className="timeline">
-            <div className="timeline-item">
-              <div className="timeline-marker">1</div>
-              <div className="timeline-content">
-                <strong>Now</strong>
-                <p>You receive a confirmation email with your research resources</p>
+          <div className="timeline-layout">
+            <div className="timeline">
+              <div className="timeline-item">
+                <div className="timeline-marker">1</div>
+                <div className="timeline-content">
+                  <strong>Now</strong>
+                  <p>You receive a confirmation email with your research resources</p>
+                </div>
+              </div>
+              <div className="timeline-item">
+                <div className="timeline-marker">2</div>
+                <div className="timeline-content">
+                  <strong>Within 24 hours</strong>
+                  <p>Our investor relations team reaches out to schedule your briefing</p>
+                </div>
+              </div>
+              <div className="timeline-item">
+                <div className="timeline-marker">3</div>
+                <div className="timeline-content">
+                  <strong>Days 2-6</strong>
+                  <p>You receive a series of emails with fund details, case studies, and FAQ answers</p>
+                </div>
+              </div>
+              <div className="timeline-item">
+                <div className="timeline-marker">4</div>
+                <div className="timeline-content">
+                  <strong>Day before call</strong>
+                  <p>You receive a reminder with your prep checklist</p>
+                </div>
+              </div>
+              <div className="timeline-item">
+                <div className="timeline-marker">5</div>
+                <div className="timeline-content">
+                  <strong>1 hour before call</strong>
+                  <p>Final reminder with calendar link and dial-in details</p>
+                </div>
+              </div>
+              <div className="timeline-item">
+                <div className="timeline-marker">6</div>
+                <div className="timeline-content">
+                  <strong>Call time</strong>
+                  <p>20-30 minute briefing covering fund details, your questions, and next steps</p>
+                </div>
               </div>
             </div>
-            <div className="timeline-item">
-              <div className="timeline-marker">2</div>
-              <div className="timeline-content">
-                <strong>Within 24 hours</strong>
-                <p>Our investor relations team reaches out to schedule your briefing</p>
+            <div className="timeline-team">
+              <h3>Your Investor Relations Team</h3>
+              <div className="team-member">
+                <img src="/images/jim_fox_headshot.png" alt="Jim Fox" className="team-headshot" />
+                <div>
+                  <strong>Jim Fox</strong>
+                  <span>Investor Relations</span>
+                </div>
               </div>
-            </div>
-            <div className="timeline-item">
-              <div className="timeline-marker">3</div>
-              <div className="timeline-content">
-                <strong>Days 2-6</strong>
-                <p>You receive a series of emails with fund details, case studies, and FAQ answers</p>
+              <div className="team-member">
+                <img src="/images/emilee_meyers_headshot.png" alt="Emilee Meyers" className="team-headshot" />
+                <div>
+                  <strong>Emilee Meyers</strong>
+                  <span>Investor Relations</span>
+                </div>
               </div>
-            </div>
-            <div className="timeline-item">
-              <div className="timeline-marker">4</div>
-              <div className="timeline-content">
-                <strong>Day before call</strong>
-                <p>You receive a reminder with your prep checklist</p>
-              </div>
-            </div>
-            <div className="timeline-item">
-              <div className="timeline-marker">5</div>
-              <div className="timeline-content">
-                <strong>1 hour before call</strong>
-                <p>Final reminder with calendar link and dial-in details</p>
-              </div>
-            </div>
-            <div className="timeline-item">
-              <div className="timeline-marker">6</div>
-              <div className="timeline-content">
-                <strong>Call time</strong>
-                <p>20-30 minute briefing covering fund details, your questions, and next steps</p>
+              <div className="team-member">
+                <img src="/images/greg_sylvester_headshot.png" alt="Greg Sylvester" className="team-headshot" />
+                <div>
+                  <strong>Greg Sylvester</strong>
+                  <span>Investor Relations</span>
+                </div>
               </div>
             </div>
           </div>
@@ -161,6 +187,9 @@ function ThankYouPage() {
       <section className="section section-dark">
         <div className="container">
           <h2>How BAM Capital Has Delivered 33%+ Average IRR</h2>
+          <div className="mechanism-hero-img">
+            <img src="/images/property_buildings.png" alt="BAM Capital multifamily properties" />
+          </div>
           <div className="mechanism-steps">
             <div className="mechanism-step">
               <div className="mechanism-number">01</div>
@@ -209,7 +238,13 @@ function ThankYouPage() {
       {/* Prep Section */}
       <section className="section section-gray" id="prep">
         <div className="container">
-          <h2>How to Prepare for Your Investment Briefing</h2>
+          <div className="prep-header">
+            <img src="/images/ivan_barratt_headshot.png" alt="Ivan Barratt" className="prep-founder-img" />
+            <div>
+              <h2>How to Prepare for Your Investment Briefing</h2>
+              <p className="prep-subtitle">From Ivan Barratt, CEO &amp; Founder</p>
+            </div>
+          </div>
           <div className="prep-grid">
             <div className="prep-item">
               <div className="prep-icon">&#128176;</div>

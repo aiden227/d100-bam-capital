@@ -29,6 +29,32 @@
   background-color: var(--color-primary);
   padding: 100px 0 80px;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(12, 25, 46, 0.7) 0%, var(--color-primary) 100%);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
 }
 
 .hero-content h1 {
@@ -114,6 +140,53 @@
   letter-spacing: 1px;
 }
 
+/* Solution Layout */
+.solution-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+  margin-top: 32px;
+}
+
+.solution-text p {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.solution-property-img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.solution-founder {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-border);
+}
+
+.solution-founder-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.solution-founder strong {
+  display: block;
+  font-size: 15px;
+  color: var(--color-text-dark);
+}
+
+.solution-founder span {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
 /* Content Blocks */
 .content-block {
   max-width: 720px;
@@ -190,12 +263,45 @@
   letter-spacing: 0.5px;
 }
 
+/* Track Badges */
+.track-badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.track-badge {
+  height: 64px;
+  width: auto;
+  object-fit: contain;
+}
+
 /* Case Study Box */
 .case-study-box {
   background-color: var(--color-primary);
   border-radius: 12px;
   padding: 40px;
   color: var(--color-white);
+}
+
+.case-study-inner {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.case-study-text {
+  flex: 1;
+}
+
+.case-study-img {
+  width: 240px;
+  border-radius: 8px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .case-study-box h3 {
@@ -209,10 +315,53 @@
   line-height: 1.7;
 }
 
+/* CTA Hero */
+.cta-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 80px 0;
+}
+
+.cta-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.cta-hero-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.15;
+}
+
+.cta-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(12, 25, 46, 0.85) 0%, rgba(12, 25, 46, 0.95) 100%);
+}
+
+.cta-fund-logo {
+  height: 48px;
+  width: auto;
+  margin-bottom: 24px;
+}
+
 /* CTA Section */
 .cta-section {
   text-align: center;
   max-width: 700px;
+  position: relative;
+  z-index: 1;
+}
+
+.cta-hero .cta-section h2 {
+  color: var(--color-white);
+  margin-bottom: 16px;
+}
+
+.cta-hero .cta-section p {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .cta-section h2 {
@@ -299,12 +448,33 @@
     font-size: 22px;
   }
 
+  .solution-layout {
+    grid-template-columns: 1fr;
+  }
+
   .steps-grid {
     grid-template-columns: 1fr;
   }
 
   .metrics-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .case-study-inner {
+    flex-direction: column;
+  }
+
+  .case-study-img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .track-badges {
+    gap: 20px;
+  }
+
+  .track-badge {
+    height: 48px;
   }
 
   .header-cta {
