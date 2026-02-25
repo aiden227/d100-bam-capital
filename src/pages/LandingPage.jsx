@@ -14,7 +14,7 @@ function LandingPage() {
       {/* Hero */}
       <section className="section hero">
         <div className="hero-bg">
-          <img src="/images/property_buildings.png" alt="BAM Capital properties" className="hero-bg-img" />
+          <img src="/images/hero_banner.jpg" alt="BAM Capital multifamily properties" className="hero-bg-img" />
           <div className="hero-overlay"></div>
         </div>
         <div className="container hero-content">
@@ -66,9 +66,9 @@ function LandingPage() {
               <p><strong>No tenants. No maintenance calls. No operational headaches. True passive investing.</strong></p>
             </div>
             <div className="solution-visual">
-              <img src="/images/property_buildings.png" alt="BAM Capital multifamily properties" className="solution-property-img" />
+              <img src="/images/property_hayden_flats.jpg" alt="BAM Capital multifamily property - Hayden Flats" className="solution-property-img" />
               <div className="solution-founder">
-                <img src="/images/ivan_barratt_headshot.png" alt="Ivan Barratt" className="solution-founder-img" />
+                <img src="/images/ivan_adam_photo.png" alt="Ivan Barratt" className="solution-founder-img" />
                 <div>
                   <strong>Ivan Barratt</strong>
                   <span>CEO &amp; Founder</span>
@@ -83,6 +83,9 @@ function LandingPage() {
       <section className="section section-dark">
         <div className="container">
           <h2>The BAM Vertically Integrated Model</h2>
+          <div className="mechanism-banner">
+            <img src="/images/property_crossing5_banner.png" alt="BAM Capital Crossing 5 property" />
+          </div>
           <div className="steps-grid">
             <div className="step-card">
               <div className="step-number">01</div>
@@ -158,7 +161,7 @@ function LandingPage() {
                 <p>We acquired Oakdale Square, deployed our vertically integrated value-add strategy, and exited at a <strong>5.08x multiple on invested capital</strong>. For every $100,000 invested, our LPs received over $508,000 back.</p>
                 <p className="text-muted" style={{ fontSize: '14px', marginTop: '12px' }}>Past performance is not indicative of future results. All investments carry risk.</p>
               </div>
-              <img src="/images/total_distributions.png" alt="BAM Capital total distributions" className="case-study-img" />
+              <img src="/images/property_new_asset.png" alt="BAM Capital property acquisition" className="case-study-img" />
             </div>
           </div>
         </div>
@@ -167,7 +170,7 @@ function LandingPage() {
       {/* CTA */}
       <section className="section cta-hero" id="apply">
         <div className="cta-hero-bg">
-          <img src="/images/property_buildings.png" alt="BAM Capital properties" className="cta-hero-bg-img" />
+          <img src="/images/property_altitude_banner.jpg" alt="BAM Capital properties" className="cta-hero-bg-img" />
           <div className="cta-hero-overlay"></div>
         </div>
         <div className="container cta-section">

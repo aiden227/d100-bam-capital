@@ -3,6 +3,32 @@
   background-color: var(--color-primary);
   padding: 100px 0 80px;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.ty-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.ty-hero-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.15;
+}
+
+.ty-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(12, 25, 46, 0.6) 0%, var(--color-primary) 100%);
+}
+
+.ty-hero-content {
+  position: relative;
+  z-index: 1;
 }
 
 .ty-hero-content h1 {

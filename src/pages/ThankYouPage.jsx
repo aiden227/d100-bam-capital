@@ -12,6 +12,10 @@ function ThankYouPage() {
 
       {/* Confirmation Hero */}
       <section className="section ty-hero">
+        <div className="ty-hero-bg">
+          <img src="/images/property_altitude_banner.jpg" alt="BAM Capital properties" className="ty-hero-bg-img" />
+          <div className="ty-hero-overlay"></div>
+        </div>
         <div className="container ty-hero-content">
           <div className="ty-check">&#10003;</div>
           <h1>Your Investment Briefing Application Has Been Submitted.</h1>
@@ -188,7 +192,7 @@ function ThankYouPage() {
         <div className="container">
           <h2>How BAM Capital Has Delivered 33%+ Average IRR</h2>
           <div className="mechanism-hero-img">
-            <img src="/images/property_buildings.png" alt="BAM Capital multifamily properties" />
+            <img src="/images/property_crossing5_banner.png" alt="BAM Capital Crossing 5 property" />
           </div>
           <div className="mechanism-steps">
             <div className="mechanism-step">
