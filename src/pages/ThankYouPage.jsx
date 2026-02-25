@@ -16,8 +16,63 @@ function ThankYouPage() {
           <div className="ty-check">&#10003;</div>
           <h1>Your Investment Briefing Application Has Been Submitted.</h1>
           <p>Our investor relations team will be in touch within 24 hours to schedule your briefing. In the meantime, complete the prep below to make the most of our conversation.</p>
+          <div className="ty-video-placeholder">
+            <div className="ty-video-inner">
+              <div className="video-play">&#9654;</div>
+              <span className="ty-video-label">Thank You Video</span>
+            </div>
+          </div>
           <a href="#prep" className="btn-primary">Complete Your Pre-Call Prep</a>
           <p className="ty-reschedule">Need to reschedule? <a href="#">Click here</a></p>
+        </div>
+      </section>
+
+      {/* Breakout Videos */}
+      <section className="section section-light">
+        <div className="container">
+          <h2>Watch These While You Wait</h2>
+          <div className="videos-grid">
+            <div className="video-card">
+              <div className="video-placeholder">
+                <img src="/images/ivan_barratt_headshot.png" alt="Ivan Barratt" className="video-avatar" />
+                <div className="video-play">&#9654;</div>
+              </div>
+              <h3>Here Is Exactly What Happens Next</h3>
+              <p className="text-muted">2 min</p>
+            </div>
+            <div className="video-card">
+              <div className="video-placeholder">
+                <img src="/images/ivan_barratt_headshot.png" alt="Ivan Barratt" className="video-avatar" />
+                <div className="video-play">&#9654;</div>
+              </div>
+              <h3>Is BAM Capital Right For You?</h3>
+              <p className="text-muted">2 min</p>
+            </div>
+            <div className="video-card">
+              <div className="video-placeholder">
+                <img src="/images/ivan_barratt_headshot.png" alt="Ivan Barratt" className="video-avatar" />
+                <div className="video-play">&#9654;</div>
+              </div>
+              <h3>How BAM Generates 33%+ Avg IRR</h3>
+              <p className="text-muted">2 min</p>
+            </div>
+            <div className="video-card">
+              <div className="video-placeholder">
+                <img src="/images/ivan_barratt_headshot.png" alt="Ivan Barratt" className="video-avatar" />
+                <div className="video-play">&#9654;</div>
+              </div>
+              <h3>Your Top 3 Questions Answered</h3>
+              <p className="text-muted">2 min</p>
+            </div>
+            <div className="video-card">
+              <div className="video-placeholder">
+                <img src="/images/ivan_barratt_headshot.png" alt="Ivan Barratt" className="video-avatar" />
+                <div className="video-play">&#9654;</div>
+              </div>
+              <h3>Do This Before Our Call</h3>
+              <p className="text-muted">2 min</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -175,50 +230,6 @@ function ThankYouPage() {
               <div className="prep-icon">&#128231;</div>
               <h3>Check Your Email</h3>
               <p>We will send you resources between now and your briefing. Review them so we can have a deeper, more productive conversation.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Breakout Videos */}
-      <section className="section section-light">
-        <div className="container">
-          <h2>Watch These While You Wait</h2>
-          <div className="videos-grid">
-            <div className="video-card">
-              <div className="video-placeholder">
-                <div className="video-play">&#9654;</div>
-              </div>
-              <h3>Here Is Exactly What Happens Next</h3>
-              <p className="text-muted">2 min</p>
-            </div>
-            <div className="video-card">
-              <div className="video-placeholder">
-                <div className="video-play">&#9654;</div>
-              </div>
-              <h3>Is BAM Capital Right For You?</h3>
-              <p className="text-muted">2 min</p>
-            </div>
-            <div className="video-card">
-              <div className="video-placeholder">
-                <div className="video-play">&#9654;</div>
-              </div>
-              <h3>How BAM Generates 33%+ Avg IRR</h3>
-              <p className="text-muted">2 min</p>
-            </div>
-            <div className="video-card">
-              <div className="video-placeholder">
-                <div className="video-play">&#9654;</div>
-              </div>
-              <h3>Your Top 3 Questions Answered</h3>
-              <p className="text-muted">2 min</p>
-            </div>
-            <div className="video-card">
-              <div className="video-placeholder">
-                <div className="video-play">&#9654;</div>
-              </div>
-              <h3>Do This Before Our Call</h3>
-              <p className="text-muted">2 min</p>
             </div>
           </div>
         </div>
